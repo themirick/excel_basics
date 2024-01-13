@@ -22,6 +22,7 @@ def my_macro():
     wb.sheets[3].range('A1').value = "Mirsoat"
 
 
+
+
 if __name__ == "__main__":
     xw.Book("titanic.xlsm").set_mock_caller()
-    main()
